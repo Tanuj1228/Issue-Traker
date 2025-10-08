@@ -35,13 +35,18 @@ function saveIssues(data) {
 function gitCommit(action, issueId) {
   const message = `${action}: issue ${issueId} @ ${new Date().toISOString()}`;
   try {
+    // Stage changes
     execFileSync('git', ['add', 'issues.json']);
+    // Commit changes
     execFileSync('git', ['commit', '-m', message]);
-    console.log('Git commit created:', message);
+    // Push to remote (GitHub)
+    execFileSync('git', ['push'], { stdio: 'inherit' }); // stdio: 'inherit' will show output in console
+    console.log('Git commit and push completed:', message);
   } catch (err) {
-    console.warn('git commit failed (is this a git repo?):', err.message);
+    console.warn('git operation failed (is this a git repo & remote set?):', err.message);
   }
 }
+
 
 function persistAndBroadcast(action, issue, socket) {
   const data = loadIssues();
