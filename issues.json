@@ -30,8 +30,15 @@
       "status": "open",
       "creator": "Pulkit",
       "created_at": "2025-10-08T09:33:43.063Z",
-      "updated_at": "2025-10-08T09:33:43.063Z",
-      "comments": []
+      "updated_at": "2025-10-08T09:34:17.374Z",
+      "comments": [
+        {
+          "id": "387a5c9c-b0c9-4acc-bf3a-50684f7e2506",
+          "author": "Akshit",
+          "text": "Hello",
+          "created_at": "2025-10-08T09:34:17.374Z"
+        }
+      ]
     }
   ]
 }
