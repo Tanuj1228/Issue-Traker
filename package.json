@@ -1,0 +1,14 @@
+{
+  "name": "real-time-issue-tracker",
+  "version": "1.0.0",
+  "description": "Simple real-time issue tracker with WebSockets and Git-backed versioning",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.8.1",
+    "uuid": "^9.0.0"
+  }
+}
