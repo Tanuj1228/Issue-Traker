@@ -1,0 +1,37 @@
+{
+  "issues": [
+    {
+      "id": "25973a98-b3ff-4479-82fc-b4da3e174d66",
+      "title": "example",
+      "description": "abcd",
+      "status": "in_progress",
+      "creator": "Tanuj",
+      "created_at": "2025-10-08T09:19:17.262Z",
+      "updated_at": "2025-10-08T09:20:43.998Z",
+      "comments": [
+        {
+          "id": "08c2f64e-6750-4670-a919-ef03107a69ad",
+          "author": "Akshit",
+          "text": "Hlo",
+          "created_at": "2025-10-08T09:19:46.504Z"
+        },
+        {
+          "id": "f9191751-153d-4f76-9236-195b7b9db3d7",
+          "author": "aman",
+          "text": "hi",
+          "created_at": "2025-10-08T09:20:43.998Z"
+        }
+      ]
+    },
+    {
+      "id": "6c96fa05-14c1-4db9-b33c-ac6c2177ed99",
+      "title": "Issue2",
+      "description": "second issue",
+      "status": "open",
+      "creator": "Pulkit",
+      "created_at": "2025-10-08T09:33:43.063Z",
+      "updated_at": "2025-10-08T09:33:43.063Z",
+      "comments": []
+    }
+  ]
+}
